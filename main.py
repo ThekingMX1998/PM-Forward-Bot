@@ -11,7 +11,7 @@ import os
 import logging
 import threading
 
-Version_Code = 'v1.1.0'  # 版本号
+Version_Code = 'v1.1.1'  # 版本号
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -222,7 +222,7 @@ def process_command(bot, update):  # 处理指令
         else:
             bot.send_message(chat_id=update.message.chat_id, text=LANG['not_an_admin'])
     elif command[0] == 'ping': # Ping~Pong!
-        bot.send_message(chat_id=update.message.chat_id, text='Pong!')
+        bot.send_message(chat_id=update.message.chat_id, text='🏓Pong!')
     elif command[0] == 'ban': # 封禁用户    
         if update.message.from_user.id == CONFIG['Admin'] \
             and update.message.chat_id == CONFIG['Admin']:
