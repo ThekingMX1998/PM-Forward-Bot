@@ -3,11 +3,17 @@
 ### 指令列表
 
 /ping - 确认机器人是否正在运行
+
 /setadmin - 设置当前用户为管理员
+
 /togglenotification - 切换消息发送提示开启状态
+
 /info - 查询用户身份
+
 /ban - 封禁用户
+
 /unban - 解封用户
+
 
 ### Git
 ```
