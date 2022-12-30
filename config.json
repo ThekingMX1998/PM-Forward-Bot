@@ -1,5 +1,5 @@
 {
-    "Admin": ADMIN,
-    "Token": "TOKEN",
+    "Admin": <str>,
+    "Token": "<TOKEN>",
     "Lang": "zh"
 }
