@@ -39,9 +39,9 @@ pip3 install -r requirements.txt
 ```
 vi config.json
 ```
-<code>TOKEN</code> 处填入自己的 <code>botToken</code> ，可以去 [@BotFather](https://t.me/BotFather) 处获取
+<code><TOKEN></code> 处填入自己的 <code>botToken</code> ，可以去 [@BotFather](https://t.me/BotFather) 处获取
 
-<code>ADMIN</code> 处填入自己的 <code>userid</code> ，可以去 [@userinfobot](https://t.me/userinfobot) 处获取
+<code><ID></code> 处填入自己的 <code>userid</code> ，可以去 [@userinfobot](https://t.me/userinfobot) 处获取
 
 ### 启动！！！
 ```
